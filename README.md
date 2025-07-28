@@ -2,8 +2,7 @@
 
 ## Lecture
 
-NO VIDEO ON YOUTUBE CURRENTLY
-[![# Null Coalescing Operator)](https://img.youtube.com/vi/v1dbW26xRQQ/0.jpg)](https://www.youtube.com/watch?v=v1dbW26xRQQ)
+[![# Null Coalescing Operator)](https://img.youtube.com/vi/nRndd69b1nI/0.jpg)](https://www.youtube.com/watch?v=nRndd69b1nI)
 
 ## Instructions
 
