@@ -18,7 +18,7 @@ namespace HomeEnergyApi.Security
             iv = configuration["AES:InitializationVector"];
         }
 
-        public string Encrypt(string plainText)
+        public string Encrypt(string? plainText)
         {
             if (key.Length != 32 || iv.Length != 16)
             {
@@ -38,7 +38,7 @@ namespace HomeEnergyApi.Security
                 {
                     using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
                     {
-                        swEncrypt.Write(plainText);
+                        swEncrypt.Write(plainText ?? "default");
                     }
                 }
 
